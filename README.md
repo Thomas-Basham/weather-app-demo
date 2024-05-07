@@ -8,7 +8,7 @@ An app that displays the weather to the user based on their input
 
 ## Feature Tasks
 
-- [ ] Structure our HTML on the index page
+- [x] Structure our HTML on the index page
 - [ ] Basic styling for index page
 - [ ] Connect HTML form to our JS
 - [ ] Write code to display weather data on UI
