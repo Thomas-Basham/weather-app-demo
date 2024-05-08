@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Courgette&family=Roboto&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 html {
   /* CSS HSL */
   --argentinian-blue: hsla(206, 74%, 63%, 1);
@@ -7,3 +9,14 @@ html {
   --cyclamen: hsla(342, 100%, 69%, 1);
 }
 
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
