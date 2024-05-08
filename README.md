@@ -10,5 +10,7 @@ An app that displays the weather to the user based on their input
 
 - [x] Structure our HTML on the index page
 - [ ] Basic styling for index page
+  - [x] Choose Color scheme
+  - [ ] Choose fonts
 - [ ] Connect HTML form to our JS
 - [ ] Write code to display weather data on UI
