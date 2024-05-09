@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A website that displays the weather" />
     <title>Weather App</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -11,7 +12,7 @@
       <h1>Weather App</h1>
     </header>
     <main>
-      <div id="search-area">
+      <form onSubmit="getWeather(event)" id="search-area">
         <input
           type="text"
           id="city-input"
@@ -19,9 +20,9 @@
           aria-label="City name"
         />
         <div>
-          <button onclick="getWeather()">Search Weather</button>
+          <button type="submit">Search Weather</button>
         </div>
-      </div>
+      </form>
       <div id="weather-container">
         <h2 id="city">City Name</h2>
         <div id="weather-info">
