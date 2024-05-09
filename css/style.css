@@ -29,6 +29,15 @@ h1 {
   font-style: normal;
 }
 
-#search-area{
+#search-area {
+  border: black 2px solid;
+  padding: 1.5rem;
+  margin-inline: 10%;
+  display: flex;
+  justify-content: space-between;
 
+}
+
+input[type=text] {
+  width: 60%
 }
