@@ -9,18 +9,23 @@ html {
   --cyclamen: hsla(342, 100%, 69%, 1);
 }
 
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+
 header {
   border: black 2px solid;
   padding: 1em;
   margin: 5%
 }
 
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
+main {
+  min-height: 70vh;
 }
 
 h1 {
@@ -33,18 +38,24 @@ input[type=text] {
   width: 60%
 }
 
+footer {
+  border: black 2px solid;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+
 #search-area {
   border: black 2px solid;
   padding: 1.5rem;
   margin-inline: 15%;
   display: flex;
   justify-content: space-between;
-
 }
 
 #weather-container {
   border: black 2px solid;
   padding: 1.5rem;
   margin-inline: 10%;
-  margin-block: 2rem
+  margin-block: 2rem;
 }
