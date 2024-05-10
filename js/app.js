@@ -16,5 +16,18 @@ function getWeather(event) {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
+
+      // DOM manipulation / update UI
+      document.getElementById("city").textContent = `${data.location.name}, ${data.location.region}` ;
+
+      document.getElementById(
+        "description"
+      ).textContent = `Weather Description: ${data.current.condition.text}`;
+
+      document.getElementById("temperature").textContent = `Temperature:  ${data.current.temp_f}°F`
+
+      document.getElementById("humidity").textContent = `Humidity: ${data.current.humidity}%`
+
+      document.getElementById("wind").textContent = `Wind: ${data.current.wind_mph} MPH`
     });
 }
