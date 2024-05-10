@@ -15,13 +15,15 @@ body {
   font-weight: 400;
   font-style: normal;
   margin: 0;
+  background-color: var(--seasalt);
 }
 
 
 header {
   border: black 2px solid;
   padding: 1em;
-  margin: 5%
+  margin: 5%;
+  background-color: var(--argentinian-blue);
 }
 
 main {
@@ -35,13 +37,31 @@ h1 {
 }
 
 input[type=text] {
-  width: 60%
+  width: 60%;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+button {
+  background-color: var(--cyclamen);
+  border: var(--naples-yellow) 2px solid;
+  border-radius: 5px;
+  color: var(--seasalt);
+  font-size: 16px;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: hsla(342, 100%, 69%, .8);
+  cursor: pointer;
 }
 
 footer {
   border: black 2px solid;
   padding: 1.5rem;
   text-align: center;
+  background-color: var(--naples-yellow)
 }
 
 
@@ -51,6 +71,7 @@ footer {
   margin-inline: 15%;
   display: flex;
   justify-content: space-between;
+  background-color: var(--light-sky-blue);
 }
 
 #weather-container {
@@ -58,4 +79,5 @@ footer {
   padding: 1.5rem;
   margin-inline: 10%;
   margin-block: 2rem;
+  background-color: var(--light-sky-blue);
 }
