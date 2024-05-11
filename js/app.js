@@ -1,4 +1,4 @@
-const BASE_URL = "http://api.weatherapi.com/v1";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 // Form event handler for getting current weather from Weatherbit api
 function getWeather(event) {
