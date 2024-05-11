@@ -14,7 +14,7 @@ An app that displays the weather to the user based on their input
   - [x] Choose fonts
   - [x] style index page
   - [ ] apply our color scheme
-- [ ] Connect HTML form to our JS
-- [ ] Write code to display weather data on UI
-  - [ ] write fetch call to a api
-  - [ ] render data from api call
+- [x] Connect HTML form to our JS
+- [x] Write code to display weather data on UI
+  - [x] write fetch call to a api
+  - [x] render data from api call
